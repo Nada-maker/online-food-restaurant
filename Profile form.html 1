@@ -1,0 +1,56 @@
+<html>
+  <head>
+   <title>
+     Health Food Restaurant
+	</title>
+   </head>
+   <body>
+    <h1>
+	 Profile
+	</h1>
+   </body>
+   <form>
+   <label> 
+         Name:
+   <input  type="text" name="Name" required>
+   </label>
+   <br>
+   <br>
+   <label>  
+         Address:
+   <input  type="text" name="Address">
+   </label>
+   <br>
+   <br>
+   <label> 
+         Suffer From Diseases: 
+   <input  type="radio" name=" Suffer From Diseases_or_Not Suffer From Diseases" value="Suffer From Diseases">
+   </label>
+   <label> 
+         Not Suffer From Diseases :  
+   <input  type="radio" name="Suffer From Diseases_or_Not Suffer From Diseases" value="Not Suffer From Diseases ">
+   </label>
+   <br>
+   <br>
+   <button type="submit"> submit </button> 
+   </form>
+ </html>
+ <html>
+  <head>
+    <style>
+	  h1{
+	     font-size: 2em;
+		 font-weight: bold;
+		 text-transform: uppercase;
+		 text-decoration: underline;
+		 text-align: left;
+		 color: #8FB8CA;
+		 }
+		 *{
+		 background-color:#CEDFDF ;
+		  } 
+		  button{
+		    font-size: 2em;
+			background-color:#B7D1D3;
+			    }
+		  

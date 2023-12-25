@@ -1,0 +1,77 @@
+<html>
+  <body>
+   <img src="C:\Users\ndaab\Downloads\download (1).jfif" width="200px" height="200px">
+   <br>
+   <br>
+   <strong>
+   offers
+   </strong>
+   <br>
+   <br>
+   <div>
+   <select name="offers" id="offers" required>
+   <option value="0" Selected disabled> choose offer</option>
+   <option value="offer 1">offer 1</option>
+   <option value="offer 2">offer 2</option>
+   <option value="offer 3">offer 3</option>
+   </select>
+   </div>
+   <br>
+   <br>
+   <strong>
+   Top Dishes
+   </strong>
+   <br>
+   <br>
+   <div>
+   <select name="Top Dishes" id="Top Dishes" required>
+   <option value="0" Selected disabled> choose Dish</option>
+   <option value="Dish 1">Dish 1</option>
+   <option value="Dish 2">Dish 2</option>
+   <option value="Dish 3">Dish 3</option>
+   </select>
+   </div>
+   <br>
+   <br>
+   <strong>
+   Categories
+   </strong>
+   <br>
+   <br>
+   <label> 
+         Meat: 
+   <input  type="radio" name="meat_or_chicken_or_pizza" value="Meat">
+   </label>
+   <label> 
+         Chicken: 
+   <input  type="radio" name="meat_or_chicken_or_pizza" value="Chicken">
+   </label>
+   <label> 
+         Pizza: 
+   <input  type="radio" name="meat_or_chicken_or_pizza" value="Pizza">
+   </label>
+   <html>
+    <head>
+	 <style>
+	    div{
+		   border: 25px solid #CB997E ;
+		   border-radius: 50px 70px;
+		   width: fit-content;
+		   }
+        strong{
+		      color:#B7D1D3;
+			  animation-name:my_animation;
+			  animation-duration:4s;
+			    }
+				 *{
+		 background-color: #8FB8CA;
+		  } 
+     </style>
+	</head>
+	</html>
+	<html>
+	<body>
+	<button id="topBtn" class="btnTop" <i class="fa fa-arrow-up"></i> </button>
+	<script src= "C:\Users\ndaab\OneDrive\Documents\js.js" > </script>
+	</body>
+	</html> 

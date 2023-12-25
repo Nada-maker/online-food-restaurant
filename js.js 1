@@ -1,0 +1,16 @@
+<script>
+var btnTop =document.getElementByid ("topBtn");
+window.onscroll=function() {
+if (document.documentElement.scrollTop >700){
+	btnTop.Style.display="block";
+}else{
+	btnTop.Style.display="none";
+}
+btnTop.addEventListener("click",function() {
+	window.scroll({
+		top:0,
+		left:0,
+		behaviour:"smooth"
+	});
+</script>
+		
